@@ -1,0 +1,21 @@
+!DOCTYPE html
+<html>
+<html lang="de">
+
+body{
+    background-image:"https://nadineperisic.github.io/EIA1-SoSe20/Aufgabe003/bg.png"
+    background-color:none
+    text-align: center;
+    opacity: 5;
+    }
+h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:mediumpurple
+    text-algin: center;
+    font-size: 100%
+}
+h2{ font-family:Arial, Helvetica, sans-serif ;
+    color:mediumpurple
+    text-algin: center;
+}
+</html>
