@@ -1,0 +1,18 @@
+.button {
+    color: black
+    background-color: burlywood
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+body{
+    background-color: cornsilk;
+}

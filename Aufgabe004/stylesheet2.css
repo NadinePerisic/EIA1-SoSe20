@@ -1,0 +1,74 @@
+body{
+    background-image: url(grünerstern2.png);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 250px;
+}
+.kasten{
+    position: absolute;
+    align-self: center;
+    margin-top: 100px;
+}
+.muschel1{
+    position: relative;
+    background-image: url(muschel.png);
+    height: 62px;
+    width: 70px;
+    left: -130px;
+}
+.muschel1:hover{
+    background-image: url(muschel_perle.png);
+}
+.muschel2{
+    position: relative;
+    background-image: url(muschel.png);
+    height: 62px;
+    width: 70px;
+    left: -10px;
+}
+.muschel2:hover{
+    background-image: url(muschel_perle.png);
+}
+.muschel3{
+    position: relative;
+    background-image: url(muschel.png);
+    height: 62px;
+    width: 70px;
+    left: 130px;
+}
+.muschel3:hover{
+    background-image: url(muschel_perle.png);
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+} 
+.text{
+    float: none;
+    position: absolute;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:whitesmoke;
+    text-align: center;
+    height: 40px;
+    width: 70px;
+    left: 130px;
+}
