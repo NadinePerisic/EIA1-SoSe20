@@ -1,17 +1,22 @@
 body {
     background: #add8e6;
+    display: block;
+    position: relative;
+    top: 100px;
+    text-align: center;
 }
 h1{
     color: #00688b;
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-    margin-left: 680px;
+   
+}
+
+    
+
 }
 .button1{   
-    margin-top: 10px;
-    margin-left: 600px;
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -22,8 +27,7 @@ h1{
     background-color: #8470ff;
 }
 .button2{
-    margin-top: 100px;
-    margin-left: 10px;
+   
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -34,8 +38,7 @@ h1{
     background-color: #8470ff;
 }
 .button3{
-    margin-top: 100px;
-    margin-left: 10px;
+    
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -46,8 +49,7 @@ h1{
     background-color: #8470ff;
 }
 .button4{
-    margin-top: 10px;
-    margin-left: 600px;
+   
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -58,8 +60,7 @@ h1{
     background-color: #8470ff;
 }
 .button5{
-    margin-top: 10px;
-    margin-left: 10px;
+ 
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -70,8 +71,7 @@ h1{
     background-color: #8470ff;
 }        
 .button6{
-    margin-top: 10px;
-    margin-left: 10px;
+    
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -82,8 +82,7 @@ h1{
     background-color: #8470ff;
 }
 .button7{
-    margin-top: 10px;
-    margin-left: 600px;
+    
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -94,8 +93,7 @@ h1{
     background-color: #8470ff;
 }
 .button8{
-    margin-top: 10px;
-    margin-left: 10px;
+    
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -106,8 +104,7 @@ h1{
     background-color: #8470ff;
 }
 .button9{
-    margin-top: 10px;
-    margin-left: 10px;
+ 
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -119,8 +116,10 @@ h1{
 }
 .playbutton{
     text-align: center;
-    margin-top: 10px;
-    margin-left: 765px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+
     background-color: #104e8b;
     width: 150px;
     height: 150px;
