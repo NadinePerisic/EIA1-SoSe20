@@ -3,8 +3,8 @@
 window.addEventListener("load", function () {
     document.querySelector("#amp3").addEventListener("click", function () { playSample("A.mp3"); });
     document.querySelector("#cmp3").addEventListener("click", function () { playSample("C.mp3"); });
-    document.querySelector("#fmp3").addEventListener("click", function () { playSample("f.mp3"); });
-    document.querySelector("#gmp3").addEventListener("click", function () { playSample("g.mp3"); });
+    document.querySelector("#fmp3").addEventListener("click", function () { playSample("F.mp3"); });
+    document.querySelector("#gmp3").addEventListener("click", function () { playSample("G.mp3"); });
     document.querySelector("#himp3").addEventListener("click", function () { playSample("hihat.mp3"); });
     document.querySelector("#kimp3").addEventListener("click", function () { playSample("kick.mp3"); });
     document.querySelector("#la1mp3").addEventListener("click", function () { playSample("laugh-1.mp3"); });
