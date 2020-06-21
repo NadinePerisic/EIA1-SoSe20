@@ -1,3 +1,4 @@
+//Hilfestellung aus dem Buch: Programmieren in TypeScript von Boris Cherny aus dem O'REILLY Verlag und das Buch Angular von Christoph Höller aus dem Rheinwerk Computing Verlag//
 //Von Aufgabe007 übernommen weil Faul :D 
 window.addEventListener("load", function () {
     document.querySelector("#amp3").addEventListener("click", function () { playSample("A.mp3"); });
