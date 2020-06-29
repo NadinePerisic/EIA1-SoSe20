@@ -13,7 +13,6 @@ function AddTaskText() {
     let element = document.querySelector(".rahmen");
     let numberofChildren = element.children.length;
     taskcounter = numberofChildren;
-    console.log("Die Anzahl der To-Dos lautet:" + numberofChildren);
     document.querySelector(".gesamt").innerHTML = numberofChildren + " Aufgabe(n) zu erledigen";
 }
 function addTaskToList(newTaskValue) {
