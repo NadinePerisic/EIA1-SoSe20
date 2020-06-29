@@ -1,0 +1,114 @@
+body{
+    background: #CEC0F9  ;
+    text-align: left;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 5%;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    background-color: darkslateblue;
+}
+.counter{
+    position: fixed;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.gesamt{
+    text-align: left;
+    position: relative;
+    top: 20%;
+    left: 30.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.mylist {
+    position: relative;
+    top: 30%;
+    left: 20%;
+    border-radius: 5px;
+    text-align: left;
+}
+.button1{
+    position: relative;
+    text-align: left;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    border-radius: 5px;
+    text-align: left;
+}
+.newTask {
+    width: 400px;
+    height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.rahmen{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border-radius: 5px;
+}
+.über{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 400px;
+    height: 45px;
+    background-color: #E2DAFD  ;
+}
+.firsttask {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.trash {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+
+}
+.checkbox {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: #E2DAFD  ;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+.done{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
