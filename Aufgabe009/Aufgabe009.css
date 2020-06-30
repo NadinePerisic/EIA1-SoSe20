@@ -92,13 +92,12 @@ h1{
     background-color: transparent;
     border: none;
     font-size: 25px;
-
 }
 .checkbox {
     position: absolute;
     top: 20%;
     left: 0%;
-    color: #E2DAFD  ;
+    color:rgb(2, 2, 2)  ;
     background-color: transparent;
     border: none;
     font-size: 25px;
