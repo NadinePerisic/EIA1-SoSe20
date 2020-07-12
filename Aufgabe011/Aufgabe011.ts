@@ -1,3 +1,4 @@
+namespace aufgabe11 {
 /**
  * Die ToDos werden in dem Array todosText gespeichert
  * Jedes ToDo hat aber, neben dem ToDo-Text, einen zweiten

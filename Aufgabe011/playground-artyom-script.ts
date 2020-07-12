@@ -5,10 +5,10 @@ namespace aufgabe11 {
         const artyom: any = new Artyom();
         
         artyom.addCommands({
-            indexes: ["Erstelle Aufgabe *"],
+            indexes: ["erstelle Aufgabe *"],
             smart: true,
             action: function(i: any, wildcard: string): void {
-                console.log("Neues ToDo wird erstellt: " + wildcard);
+                console.log("ToDo wird erstellt: " + wildcard);
     
                 todos.unshift({
                     text: wildcard,
@@ -30,7 +30,7 @@ namespace aufgabe11 {
                         interimResults: true,
                         debug: true
                     }).then(function(): void {
-                        console.log("Ready!");
+                        console.log("Bereit");
                     });
                 }, 
                 250);

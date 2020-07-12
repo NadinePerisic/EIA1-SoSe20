@@ -4,10 +4,10 @@ var aufgabe11;
     window.addEventListener("load", function () {
         const artyom = new Artyom();
         artyom.addCommands({
-            indexes: ["Erstelle Aufgabe *"],
+            indexes: ["erstelle Aufgabe *"],
             smart: true,
             action: function (i, wildcard) {
-                console.log("Neues ToDo wird erstellt: " + wildcard);
+                console.log("ToDo wird erstellt: " + wildcard);
                 todos.unshift({
                     text: wildcard,
                     ListChecked: false
@@ -25,7 +25,7 @@ var aufgabe11;
                     interimResults: true,
                     debug: true
                 }).then(function () {
-                    console.log("Ready!");
+                    console.log("Bereit");
                 });
             }, 250);
         }
